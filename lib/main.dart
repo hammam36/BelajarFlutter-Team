@@ -28,8 +28,7 @@ class MyApp extends StatelessWidget {
         'bab5': (context) => ProductListScreen(),
         '/detail': (context) => const ProductDetailScreen(),
         'bab6': (context) => const PhotoGridScreen(),
-        '/photoDetail': (context) => const PhotoDetail(),
-        'bab7': (context) => const PhotoList(),
+        'bab7': (context) => const PhotoApp(),
       },
     );
   }
